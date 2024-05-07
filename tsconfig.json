@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "incremental": true,
+    "outDir": "./out",
+
+    // "noEmit": false,
+    "inlineSourceMap": true,
+    "noImplicitThis": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // "keyofStringsOnly": true,
+    "experimentalDecorators": true,
+    // "noUncheckedIndexedAccess": true,
+    // "noPropertyAccessFromIndexSignature": true,
+    // "noUnusedLocals": false,
+    "incremental": true,
+
+    "useUnknownInCatchVariables": false,
+    "emitDecoratorMetadata": true
+    // ,"igno"
+    // "ignoreDeprecations": "5.0"
+    // "strictFunctionTypes": false
+    // "sourceMap": true
+  },
+  // "references": [{ "path": "../src", "prepend": true }],
+  // "references": [{ "path": "./src/aaa" }, { "path": "./src/bbb" }]
+  // "files": ["./global.d.ts"],
+  // "include": ["./src/**/*"]
+  "include": ["src/**/*.ts"]
+  // "exclude": ["src/work"]
+}

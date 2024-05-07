@@ -1,0 +1,12 @@
+/*
+
+!.vscode
+
+!src
+src/config.ts
+
+!.prettierrc
+!package.json
+!package-lock.json
+!tsconfig.json
+!.gitignore
